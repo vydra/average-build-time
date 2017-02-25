@@ -21,7 +21,8 @@ import static java.time.Instant.now;
 
 public final class ComputeAverageBuildTime {
 
-    private static final SocketAddress GRADLE_ENTERPRISE_SERVER = new InetSocketAddress("ubuntu16", 443);
+    private static final SocketAddress GRADLE_ENTERPRISE_SERVER = new InetSocketAddress(
+            System.getProperty("server"), Integer.parseInt( System.getProperty("port","443")) );
 
     private static final HttpClient<ByteBuf, ByteBuf> HTTP_CLIENT = HttpClient.newClient(GRADLE_ENTERPRISE_SERVER).unsafeSecure();
     private static final int THROTTLE = 5;
@@ -40,8 +41,6 @@ public final class ComputeAverageBuildTime {
            since = now().minus(Duration.ofHours( Integer.parseInt(hoursStr)));
         }
 
-        System.out.print("Average Build Time: ");
-
         MathObservable.from(
             buildStream(since)
                     .doOnSubscribe(() -> System.out.println("Streaming builds..."))
@@ -54,16 +53,18 @@ public final class ComputeAverageBuildTime {
                             .map(json -> new BuildEventInfo(json))
                             .filter(info -> (info.type.equals("BuildStarted") || info.type.equals("BuildFinished")) )
                             .take(2)
+                            // assumes we have one 'BuildStarted' and one 'BuildFinished' event in stream
                             .reduce(0L, (a,b) -> Math.abs(a - b.timestamp))
                     ,
                     THROTTLE
-                    )).averageLong(time -> time / 1000)
-                    .toBlocking().subscribe(System.out::println);
+                    )).averageLong(millis -> millis / 1000)
+                .map( time -> "\nAverage Build Time: " + time + " seconds")
+                .toBlocking()
+                .subscribe(System.out::println);
             }
 
 
     static class BuildEventInfo {
-
         Long timestamp;
         String type;
 
@@ -71,8 +72,6 @@ public final class ComputeAverageBuildTime {
             this.timestamp = json.get("timestamp").asLong();
             this.type = json.get("type").get("eventType").asText();
         }
-
-
     }
 
 

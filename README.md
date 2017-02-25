@@ -1,31 +1,38 @@
-# Build count by user
+# Calculates Average Build Time
 
-In this Java example, builds from the last 24 hours are counted and aggregated by username.
+## Parameters:
 
-## Concepts
+server - Gradle Enterprise server name (assumes https on port 443)
 
-- Build streaming
-- Retrieving build events for a build
+port - Gradle Enterprise server port. Defaults to 443
+
+hours - how many hours to go back from now. Default is EPOCH, i.e. all builds scans in the system.
 
 ## Setup
 
 To run this sample:
 
-1. Replace the hostname value of the `GRADLE_ENTERPRISE_SERVER` constant in [`BuildCountByUser.java`][BuildCountByUser] with your Gradle Enterprise hostname.
-2. Open a terminal window.
-3. Run `./gradlew run` from the command line.
+1. Open a terminal window.
+2. Run `./gradlew run -Dserver=upur_server_name -Dhours=24` from the command line.
 
 Sample output:
 ```
 Streaming builds...
-Streaming events for : tlau2phsbmpl4
-Streaming events for : gyj4ue5rkfhes
-...
-Streaming events for : lgxfpx2rniy26
-Streaming events for : zakj2zjtnv27k
-Streaming events for : 2bbnxgrcq5uco
+Streaming events for : sfak5xs2k6wrs
+Streaming events for : 65gz34ahyclqq
+Streaming events for : 26xugvjbpd2xq
+Streaming events for : gu7u2rqrob3yk
+Streaming events for : evxyb4demqbee
+Streaming events for : mo7ajx6tmfluq
+Streaming events for : 4mf2ogozwsasi
+Streaming events for : lninbqrzb6tyc
+Streaming events for : h6pakfgvlgkea
+Streaming events for : c23sfb347tbmu
+Streaming events for : 2ubdvp7vqukqy
+Streaming events for : r2enfmhiiuqju
+Streaming events for : irxifle46qkmw
 
-Results: [user1: 80, user2: 64, build-agent1: 480, user3: 77, build-agent2: 598]
+Average Build Time: 10 seconds
 ```
 
 [BuildCountByUser]: src/main/java/com/gradle/cloudservices/enterprise/export/BuildCountByUser.java
