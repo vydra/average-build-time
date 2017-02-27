@@ -6,7 +6,7 @@ server - Gradle Enterprise server name (assumes https on port 443)
 
 port - Gradle Enterprise server port. Defaults to 443
 
-hours - how many hours to go back from now. Default is EPOCH, i.e. all builds scans in the system.
+hours - how many hours to go back from now. Default is 24hours. Use 'all' for all builds scans in the system (Warning: maybe be slow)
 
 ## Setup
 

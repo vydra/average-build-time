@@ -34,7 +34,11 @@ public final class ComputeAverageBuildTime {
         String hoursStr = System.getProperty("hours");
 
         Instant since;
+        // default to 24hs
         if(hoursStr == null) {
+            since = now().minus(Duration.ofHours( Integer.parseInt("24")));
+        }
+        else if(hoursStr == "all") {
             since = Instant.EPOCH;
             System.out.println("Calculating for all stored build scans");
         } else {
@@ -51,8 +55,7 @@ public final class ComputeAverageBuildTime {
                             .filter(serverSentEvent -> serverSentEvent.getEventTypeAsString().equals("BuildEvent"))
                             .map(ComputeAverageBuildTime::parse)
                             .map(json -> new BuildEventInfo(json))
-                            .filter(info -> (info.type.equals("BuildStarted") || info.type.equals("BuildFinished")) )
-                            .take(2)
+                            .filter(info -> (info.type.equals("BuildStarted") || info.type.equals("BuildFinished") ) )
                             // assumes we have one 'BuildStarted' and one 'BuildFinished' event in stream
                             .reduce(0L, (a,b) -> Math.abs(a - b.timestamp))
                     ,
@@ -67,10 +70,18 @@ public final class ComputeAverageBuildTime {
     static class BuildEventInfo {
         Long timestamp;
         String type;
+        JsonNode failureNode;
 
         public BuildEventInfo(JsonNode json ) {
             this.timestamp = json.get("timestamp").asLong();
             this.type = json.get("type").get("eventType").asText();
+            JsonNode dataNode = json.get("data");
+            this.failureNode = dataNode != null ? dataNode.get("failure") : null;
+
+        }
+
+        public boolean isFailure() {
+            return false;
         }
     }
 
