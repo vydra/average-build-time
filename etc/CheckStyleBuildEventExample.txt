@@ -1,0 +1,311 @@
+id: byykc7h3tg6wg
+event: Build
+data: {"buildId":"byykc7h3tg6wg","pluginVersion":"1.6","gradleVersion":"3.3","timestamp":1487540521051}
+
+id: 0
+event: BuildEvent
+data: {"timestamp":1487540512715,"type":{"majorVersion":1,"minorVersion":0,"eventType":"BuildStarted"},"data":{}}
+
+id: 1
+event: BuildEvent
+data: {"timestamp":1487540512715,"type":{"majorVersion":1,"minorVersion":0,"eventType":"BuildRequestedTasks"},"data":{"requested":["build"],"excluded":[]}}
+
+id: 2
+event: BuildEvent
+data: {"timestamp":1487540512715,"type":{"majorVersion":1,"minorVersion":1,"eventType":"BuildModes"},"data":{"refreshDependencies":false,"parallelProjectExecution":false,"rerunTasks":false,"continuous":false,"continueOnFailure":false,"configureOnDemand":false,"daemon":true,"offline":false,"dryRun":false,"maxWorkers":8,"taskOutputCache":false}}
+
+id: 3
+event: BuildEvent
+data: {"timestamp":1487540512715,"type":{"majorVersion":1,"minorVersion":0,"eventType":"ProjectStructure"},"data":{"rootProjectName":"gradle-build-scan-quickstart","projects":[{"projectPath":":","children":[]}]}}
+
+id: 4
+event: BuildEvent
+data: {"timestamp":1487540512715,"type":{"majorVersion":1,"minorVersion":0,"eventType":"Hardware"},"data":{"numProcessors":8}}
+
+id: 5
+event: BuildEvent
+data: {"timestamp":1487540512715,"type":{"majorVersion":1,"minorVersion":0,"eventType":"Os"},"data":{"family":"os x","name":"Mac OS X","version":"10.12.3","arch":"x86_64"}}
+
+id: 6
+event: BuildEvent
+data: {"timestamp":1487540512715,"type":{"majorVersion":1,"minorVersion":0,"eventType":"Jvm"},"data":{"version":"1.8.0_121","vendor":"Oracle Corporation","runtimeName":"Java(TM) SE Runtime Environment","runtimeVersion":"1.8.0_121-b13","classVersion":"52.0","vmInfo":"mixed mode","vmName":"Java HotSpot(TM) 64-Bit Server VM","vmVersion":"25.121-b13","vmVendor":"Oracle Corporation"}}
+
+id: 7
+event: BuildEvent
+data: {"timestamp":1487540512715,"type":{"majorVersion":1,"minorVersion":0,"eventType":"JvmArgs"},"data":{"effective":["-XX:MaxPermSize=256m","-XX:+HeapDumpOnOutOfMemoryError","-Xmx1024m","-Dfile.encoding=UTF-8","-Duser.country=US","-Duser.language=en","-Duser.variant"]}}
+
+id: 8
+event: BuildEvent
+data: {"timestamp":1487540512715,"type":{"majorVersion":1,"minorVersion":0,"eventType":"Locality"},"data":{"localeLanguage":"en","localeCountry":"US","localeVariant":"","timeZoneId":"America/Los_Angeles","timeZoneOffsetMillis":-28800000}}
+
+id: 9
+event: BuildEvent
+data: {"timestamp":1487540512715,"type":{"majorVersion":1,"minorVersion":0,"eventType":"BuildAgent"},"data":{"username":"dvydra","localHostname":null,"publicHostname":"Davids-MacBook-Pro.local","ipAddresses":["192.168.1.2"]}}
+
+id: 10
+event: BuildEvent
+data: {"timestamp":1487540512715,"type":{"majorVersion":1,"minorVersion":0,"eventType":"DaemonState"},"data":{"startTime":1487540256070,"buildNumber":2,"numberOfRunningDaemons":1,"idleTimeout":10800000}}
+
+id: 11
+event: BuildEvent
+data: {"timestamp":1487540513421,"type":{"majorVersion":1,"minorVersion":0,"eventType":"GradleLoaded"},"data":{}}
+
+id: 12
+event: BuildEvent
+data: {"timestamp":1487540513432,"type":{"majorVersion":1,"minorVersion":0,"eventType":"SettingsEvaluated"},"data":{}}
+
+id: 13
+event: BuildEvent
+data: {"timestamp":1487540513434,"type":{"majorVersion":1,"minorVersion":0,"eventType":"ProjectsLoaded"},"data":{}}
+
+id: 14
+event: BuildEvent
+data: {"timestamp":1487540518447,"type":{"majorVersion":1,"minorVersion":0,"eventType":"PluginApplied"},"data":{"projectPath":":","pluginClassName":"com.gradle.scan.plugin.BuildScanPlugin","inferredVersion":"1.6","inferredId":"com.gradle.build-scan","codeSourceType":"dependency_cache"}}
+
+id: 15
+event: BuildEvent
+data: {"timestamp":1487540518448,"type":{"majorVersion":1,"minorVersion":0,"eventType":"ProjectEvaluationStarted"},"data":{"projectPath":":"}}
+
+id: 16
+event: BuildEvent
+data: {"timestamp":1487540518449,"type":{"majorVersion":1,"minorVersion":0,"eventType":"PluginApplied"},"data":{"projectPath":":","pluginClassName":"org.gradle.api.plugins.HelpTasksPlugin","inferredVersion":"3.3","inferredId":"org.gradle.help-tasks","codeSourceType":"gradle_distribution"}}
+
+id: 17
+event: BuildEvent
+data: {"timestamp":1487540518476,"type":{"majorVersion":1,"minorVersion":0,"eventType":"PluginApplied"},"data":{"projectPath":":","pluginClassName":"org.gradle.language.base.plugins.LifecycleBasePlugin","inferredVersion":"3.3","inferredId":"org.gradle.lifecycle-base","codeSourceType":"gradle_distribution"}}
+
+id: 18
+event: BuildEvent
+data: {"timestamp":1487540518479,"type":{"majorVersion":1,"minorVersion":0,"eventType":"PluginApplied"},"data":{"projectPath":":","pluginClassName":"org.gradle.api.plugins.BasePlugin","inferredVersion":"3.3","inferredId":"org.gradle.base","codeSourceType":"gradle_distribution"}}
+
+id: 19
+event: BuildEvent
+data: {"timestamp":1487540518479,"type":{"majorVersion":1,"minorVersion":0,"eventType":"PluginApplied"},"data":{"projectPath":":","pluginClassName":"org.gradle.api.plugins.ReportingBasePlugin","inferredVersion":"3.3","inferredId":"org.gradle.reporting-base","codeSourceType":"gradle_distribution"}}
+
+id: 20
+event: BuildEvent
+data: {"timestamp":1487540518479,"type":{"majorVersion":1,"minorVersion":0,"eventType":"PluginApplied"},"data":{"projectPath":":","pluginClassName":"org.gradle.platform.base.plugins.ComponentBasePlugin","inferredVersion":"3.3","inferredId":"org.gradle.component-base","codeSourceType":"gradle_distribution"}}
+
+id: 21
+event: BuildEvent
+data: {"timestamp":1487540518480,"type":{"majorVersion":1,"minorVersion":0,"eventType":"PluginApplied"},"data":{"projectPath":":","pluginClassName":"org.gradle.language.base.plugins.LanguageBasePlugin","inferredVersion":"3.3","inferredId":"org.gradle.language-base","codeSourceType":"gradle_distribution"}}
+
+id: 22
+event: BuildEvent
+data: {"timestamp":1487540518480,"type":{"majorVersion":1,"minorVersion":0,"eventType":"PluginApplied"},"data":{"projectPath":":","pluginClassName":"org.gradle.platform.base.plugins.BinaryBasePlugin","inferredVersion":"3.3","inferredId":"org.gradle.binary-base","codeSourceType":"gradle_distribution"}}
+
+id: 23
+event: BuildEvent
+data: {"timestamp":1487540518481,"type":{"majorVersion":1,"minorVersion":0,"eventType":"PluginApplied"},"data":{"projectPath":":","pluginClassName":"org.gradle.api.plugins.JavaBasePlugin","inferredVersion":"3.3","inferredId":"org.gradle.java-base","codeSourceType":"gradle_distribution"}}
+
+id: 24
+event: BuildEvent
+data: {"timestamp":1487540518495,"type":{"majorVersion":1,"minorVersion":0,"eventType":"PluginApplied"},"data":{"projectPath":":","pluginClassName":"org.gradle.api.plugins.JavaPlugin","inferredVersion":"3.3","inferredId":"org.gradle.java","codeSourceType":"gradle_distribution"}}
+
+id: 25
+event: BuildEvent
+data: {"timestamp":1487540518526,"type":{"majorVersion":1,"minorVersion":0,"eventType":"PluginApplied"},"data":{"projectPath":":","pluginClassName":"org.gradle.api.plugins.quality.CheckstylePlugin","inferredVersion":"3.3","inferredId":"org.gradle.checkstyle","codeSourceType":"gradle_distribution"}}
+
+id: 26
+event: BuildEvent
+data: {"timestamp":1487540518773,"type":{"majorVersion":1,"minorVersion":0,"eventType":"UserTag"},"data":{"tag":"LOCAL"}}
+
+id: 27
+event: BuildEvent
+data: {"timestamp":1487540518795,"type":{"majorVersion":1,"minorVersion":0,"eventType":"UserNamedValue"},"data":{"key":"Git Commit ID","value":"f03d2c306dbda2ad9ef4cc01107ef41ace4038e0"}}
+
+id: 28
+event: BuildEvent
+data: {"timestamp":1487540518797,"type":{"majorVersion":1,"minorVersion":0,"eventType":"UserLink"},"data":{"label":"Source","url":"https://github.com/gradle/gradle-build-scan-quickstart/tree/f03d2c306dbda2ad9ef4cc01107ef41ace4038e0"}}
+
+id: 29
+event: BuildEvent
+data: {"timestamp":1487540518807,"type":{"majorVersion":1,"minorVersion":0,"eventType":"UserNamedValue"},"data":{"key":"Git Branch Name","value":"custom-values"}}
+
+id: 30
+event: BuildEvent
+data: {"timestamp":1487540518820,"type":{"majorVersion":1,"minorVersion":0,"eventType":"UserTag"},"data":{"tag":"dirty"}}
+
+id: 31
+event: BuildEvent
+data: {"timestamp":1487540518820,"type":{"majorVersion":1,"minorVersion":0,"eventType":"UserNamedValue"},"data":{"key":"Git Status","value":" M build.gradle\n"}}
+
+id: 32
+event: BuildEvent
+data: {"timestamp":1487540518830,"type":{"majorVersion":1,"minorVersion":0,"eventType":"ProjectEvaluationFinished"},"data":{"projectPath":":","failure":null}}
+
+id: 33
+event: BuildEvent
+data: {"timestamp":1487540518831,"type":{"majorVersion":1,"minorVersion":0,"eventType":"ProjectsEvaluated"},"data":{}}
+
+id: 34
+event: BuildEvent
+data: {"timestamp":1487540518849,"type":{"majorVersion":1,"minorVersion":2,"eventType":"TaskStarted"},"data":{"id":-2556824238716145285,"path":":compileJava","className":"org.gradle.api.tasks.compile.JavaCompile_Decorated","thread":0,"noActions":false}}
+
+id: 35
+event: BuildEvent
+data: {"timestamp":1487540518852,"type":{"majorVersion":1,"minorVersion":0,"eventType":"ConfigurationResolutionStarted"},"data":{"id":3421472176614542733,"projectPath":":","configurationName":"compileClasspath","description":"Compile classpath for source set 'main'.","visible":false,"transitive":true}}
+
+id: 36
+event: BuildEvent
+data: {"timestamp":1487540518855,"type":{"majorVersion":2,"minorVersion":0,"eventType":"ConfigurationResolutionFinished"},"data":{"id":3421472176614542733,"result":{"failed":false,"root":-4158201004604845245,"identityToComponent":{"7817447451290190619":-1958175210890232384,"-4158201004604845245":-7678528441735453478},"dependencyToFailure":{}}}}
+
+id: 37
+event: BuildEvent
+data: {"timestamp":1487540518902,"type":{"majorVersion":1,"minorVersion":3,"eventType":"TaskFinished"},"data":{"id":-2556824238716145285,"path":":compileJava","outcome":"success","skipMessage":null,"cacheable":false,"cachingDisabledExplanation":null}}
+
+id: 38
+event: BuildEvent
+data: {"timestamp":1487540518903,"type":{"majorVersion":1,"minorVersion":2,"eventType":"TaskStarted"},"data":{"id":3152863699801987912,"path":":processResources","className":"org.gradle.language.jvm.tasks.ProcessResources_Decorated","thread":0,"noActions":false}}
+
+id: 39
+event: BuildEvent
+data: {"timestamp":1487540518903,"type":{"majorVersion":1,"minorVersion":3,"eventType":"TaskFinished"},"data":{"id":3152863699801987912,"path":":processResources","outcome":"no_source","skipMessage":null,"cacheable":false,"cachingDisabledExplanation":null}}
+
+id: 40
+event: BuildEvent
+data: {"timestamp":1487540518904,"type":{"majorVersion":1,"minorVersion":2,"eventType":"TaskStarted"},"data":{"id":2460011044136291802,"path":":classes","className":"org.gradle.api.DefaultTask_Decorated","thread":0,"noActions":true}}
+
+id: 41
+event: BuildEvent
+data: {"timestamp":1487540518904,"type":{"majorVersion":1,"minorVersion":3,"eventType":"TaskFinished"},"data":{"id":2460011044136291802,"path":":classes","outcome":"success","skipMessage":null,"cacheable":false,"cachingDisabledExplanation":null}}
+
+id: 42
+event: BuildEvent
+data: {"timestamp":1487540518904,"type":{"majorVersion":1,"minorVersion":2,"eventType":"TaskStarted"},"data":{"id":-2985922453282121584,"path":":jar","className":"org.gradle.api.tasks.bundling.Jar_Decorated","thread":0,"noActions":false}}
+
+id: 43
+event: BuildEvent
+data: {"timestamp":1487540518911,"type":{"majorVersion":1,"minorVersion":3,"eventType":"TaskFinished"},"data":{"id":-2985922453282121584,"path":":jar","outcome":"success","skipMessage":null,"cacheable":false,"cachingDisabledExplanation":null}}
+
+id: 44
+event: BuildEvent
+data: {"timestamp":1487540518912,"type":{"majorVersion":1,"minorVersion":2,"eventType":"TaskStarted"},"data":{"id":-6062718791994789342,"path":":assemble","className":"org.gradle.api.DefaultTask_Decorated","thread":0,"noActions":true}}
+
+id: 45
+event: BuildEvent
+data: {"timestamp":1487540518912,"type":{"majorVersion":1,"minorVersion":3,"eventType":"TaskFinished"},"data":{"id":-6062718791994789342,"path":":assemble","outcome":"success","skipMessage":null,"cacheable":false,"cachingDisabledExplanation":null}}
+
+id: 46
+event: BuildEvent
+data: {"timestamp":1487540518913,"type":{"majorVersion":1,"minorVersion":2,"eventType":"TaskStarted"},"data":{"id":5142454075338674750,"path":":checkstyleMain","className":"org.gradle.api.plugins.quality.Checkstyle_Decorated","thread":0,"noActions":false}}
+
+id: 47
+event: BuildEvent
+data: {"timestamp":1487540518916,"type":{"majorVersion":1,"minorVersion":0,"eventType":"ConfigurationResolutionStarted"},"data":{"id":-5072044912272064048,"projectPath":":","configurationName":"checkstyle","description":"The Checkstyle libraries to be used for this project.","visible":false,"transitive":true}}
+
+id: 48
+event: BuildEvent
+data: {"timestamp":1487540519466,"type":{"majorVersion":2,"minorVersion":0,"eventType":"ConfigurationResolutionFinished"},"data":{"id":-5072044912272064048,"result":{"failed":false,"root":-4158201004604845245,"identityToComponent":{"5986419530367645958":-5689771848904514208,"-1304334253747185484":-5558243966731278528,"-3140967205134626632":5624027510292334546,"-4112682170889789545":-922720249368180429,"-4158201004604845245":-5312256710364062850,"-5065192993513820785":-6621128348394796803},"dependencyToFailure":{}}}}
+
+id: 49
+event: BuildEvent
+data: {"timestamp":1487540520593,"type":{"majorVersion":1,"minorVersion":0,"eventType":"OutputLogEvent"},"data":{"common":{"category":"org.gradle.api.internal.project.ant.AntLoggingAdapter","logLevel":"ERROR"},"message":"[ant:checkstyle] /Users/dvydra/dev/gradle/gradle-build-scan-quickstart/src/main/java/example/Example.java:4:8: Unused import - java.util.ArrayList.","failure":null}}
+
+id: 50
+event: BuildEvent
+data: {"timestamp":1487540520593,"type":{"majorVersion":1,"minorVersion":0,"eventType":"OutputLogEvent"},"data":{"common":{"category":"org.gradle.api.internal.project.ant.AntLoggingAdapter","logLevel":"ERROR"},"message":"[ant:checkstyle] /Users/dvydra/dev/gradle/gradle-build-scan-quickstart/src/main/java/example/Example.java:5:8: Unused import - java.util.LinkedList.","failure":null}}
+
+id: 51
+event: BuildEvent
+data: {"timestamp":1487540520593,"type":{"majorVersion":1,"minorVersion":0,"eventType":"OutputLogEvent"},"data":{"common":{"category":"org.gradle.api.internal.project.ant.AntLoggingAdapter","logLevel":"ERROR"},"message":"[ant:checkstyle] /Users/dvydra/dev/gradle/gradle-build-scan-quickstart/src/main/java/example/Example.java:6:1: Redundant import from the java.lang package - java.lang.Object.","failure":null}}
+
+id: 52
+event: BuildEvent
+data: {"timestamp":1487540520593,"type":{"majorVersion":1,"minorVersion":0,"eventType":"OutputLogEvent"},"data":{"common":{"category":"org.gradle.api.internal.project.ant.AntLoggingAdapter","logLevel":"ERROR"},"message":"[ant:checkstyle] /Users/dvydra/dev/gradle/gradle-build-scan-quickstart/src/main/java/example/Example.java:13:19: Empty statement.","failure":null}}
+
+id: 53
+event: BuildEvent
+data: {"timestamp":1487540520593,"type":{"majorVersion":1,"minorVersion":0,"eventType":"OutputLogEvent"},"data":{"common":{"category":"org.gradle.api.internal.project.ant.AntLoggingAdapter","logLevel":"ERROR"},"message":"[ant:checkstyle] /Users/dvydra/dev/gradle/gradle-build-scan-quickstart/src/main/java/example/Example.java:13:25: Empty statement.","failure":null}}
+
+id: 54
+event: BuildEvent
+data: {"timestamp":1487540520867,"type":{"majorVersion":1,"minorVersion":3,"eventType":"TaskFinished"},"data":{"id":5142454075338674750,"path":":checkstyleMain","outcome":"failed","skipMessage":null,"cacheable":false,"cachingDisabledExplanation":null}}
+
+id: 55
+event: BuildEvent
+data: {"timestamp":1487540520907,"type":{"majorVersion":1,"minorVersion":0,"eventType":"UserNamedValue"},"data":{"key":"Checkstyle Issue","value":"src/main/java/example/Example.java:4:8 → Unused import - java.util.ArrayList."}}
+
+id: 56
+event: BuildEvent
+data: {"timestamp":1487540520908,"type":{"majorVersion":1,"minorVersion":0,"eventType":"UserNamedValue"},"data":{"key":"Checkstyle Issue","value":"src/main/java/example/Example.java:5:8 → Unused import - java.util.LinkedList."}}
+
+id: 57
+event: BuildEvent
+data: {"timestamp":1487540520908,"type":{"majorVersion":1,"minorVersion":0,"eventType":"UserNamedValue"},"data":{"key":"Checkstyle Issue","value":"src/main/java/example/Example.java:6:1 → Redundant import from the java.lang package - java.lang.Object."}}
+
+id: 58
+event: BuildEvent
+data: {"timestamp":1487540520908,"type":{"majorVersion":1,"minorVersion":0,"eventType":"UserNamedValue"},"data":{"key":"Checkstyle Issue","value":"src/main/java/example/Example.java:13:19 → Empty statement."}}
+
+id: 59
+event: BuildEvent
+data: {"timestamp":1487540520908,"type":{"majorVersion":1,"minorVersion":0,"eventType":"UserNamedValue"},"data":{"key":"Checkstyle Issue","value":"src/main/java/example/Example.java:13:25 → Empty statement."}}
+
+id: 60
+event: BuildEvent
+data: {"timestamp":1487540520915,"type":{"majorVersion":1,"minorVersion":0,"eventType":"OutputStyledTextEvent"},"data":{"common":{"category":"org.gradle.internal.buildevents.BuildExceptionReporter","logLevel":"ERROR"},"spans":[{"text":"\n","style":"Normal"}]}}
+
+id: 61
+event: BuildEvent
+data: {"timestamp":1487540520915,"type":{"majorVersion":1,"minorVersion":0,"eventType":"OutputStyledTextEvent"},"data":{"common":{"category":"org.gradle.internal.buildevents.BuildExceptionReporter","logLevel":"ERROR"},"spans":[{"text":"FAILURE: ","style":"Failure"},{"text":"Build failed with an exception.","style":"Failure"},{"text":"\n","style":"Normal"}]}}
+
+id: 62
+event: BuildEvent
+data: {"timestamp":1487540520915,"type":{"majorVersion":1,"minorVersion":0,"eventType":"OutputStyledTextEvent"},"data":{"common":{"category":"org.gradle.internal.buildevents.BuildExceptionReporter","logLevel":"ERROR"},"spans":[{"text":"\n","style":"Normal"}]}}
+
+id: 63
+event: BuildEvent
+data: {"timestamp":1487540520915,"type":{"majorVersion":1,"minorVersion":0,"eventType":"OutputStyledTextEvent"},"data":{"common":{"category":"org.gradle.internal.buildevents.BuildExceptionReporter","logLevel":"ERROR"},"spans":[{"text":"* What went wrong:\n","style":"Normal"}]}}
+
+id: 64
+event: BuildEvent
+data: {"timestamp":1487540520915,"type":{"majorVersion":1,"minorVersion":0,"eventType":"OutputStyledTextEvent"},"data":{"common":{"category":"org.gradle.internal.buildevents.BuildExceptionReporter","logLevel":"ERROR"},"spans":[{"text":"Execution failed for task ':checkstyleMain'.\n","style":"Normal"}]}}
+
+id: 65
+event: BuildEvent
+data: {"timestamp":1487540520915,"type":{"majorVersion":1,"minorVersion":0,"eventType":"OutputStyledTextEvent"},"data":{"common":{"category":"org.gradle.internal.buildevents.BuildExceptionReporter","logLevel":"ERROR"},"spans":[{"text":"> ","style":"Info"},{"text":"Checkstyle rule violations were found. See the report at: file:///Users/dvydra/dev/gradle/gradle-build-scan-quickstart/build/reports/checkstyle/main.html\n","style":"Normal"}]}}
+
+id: 66
+event: BuildEvent
+data: {"timestamp":1487540520915,"type":{"majorVersion":1,"minorVersion":0,"eventType":"OutputStyledTextEvent"},"data":{"common":{"category":"org.gradle.internal.buildevents.BuildExceptionReporter","logLevel":"ERROR"},"spans":[{"text":"\n","style":"Normal"}]}}
+
+id: 67
+event: BuildEvent
+data: {"timestamp":1487540520915,"type":{"majorVersion":1,"minorVersion":0,"eventType":"OutputStyledTextEvent"},"data":{"common":{"category":"org.gradle.internal.buildevents.BuildExceptionReporter","logLevel":"ERROR"},"spans":[{"text":"* Try:\n","style":"Normal"}]}}
+
+id: 68
+event: BuildEvent
+data: {"timestamp":1487540520916,"type":{"majorVersion":1,"minorVersion":0,"eventType":"OutputStyledTextEvent"},"data":{"common":{"category":"org.gradle.internal.buildevents.BuildExceptionReporter","logLevel":"ERROR"},"spans":[{"text":"Run with ","style":"Normal"},{"text":"--stacktrace","style":"UserInput"},{"text":" option to get the stack trace. Run with ","style":"Normal"},{"text":"--info","style":"UserInput"},{"text":" or ","style":"Normal"},{"text":"--debug","style":"UserInput"},{"text":" option to get more log output.\n","style":"Normal"}]}}
+
+id: 69
+event: BuildEvent
+data: {"timestamp":1487540520916,"type":{"majorVersion":1,"minorVersion":0,"eventType":"OutputStyledTextEvent"},"data":{"common":{"category":"org.gradle.internal.buildevents.BuildResultLogger","logLevel":"LIFECYCLE"},"spans":[{"text":"\n","style":"Normal"}]}}
+
+id: 70
+event: BuildEvent
+data: {"timestamp":1487540520916,"type":{"majorVersion":1,"minorVersion":0,"eventType":"OutputStyledTextEvent"},"data":{"common":{"category":"org.gradle.internal.buildevents.BuildResultLogger","logLevel":"LIFECYCLE"},"spans":[{"text":"BUILD FAILED","style":"Failure"},{"text":"\n","style":"Normal"}]}}
+
+id: 71
+event: BuildEvent
+data: {"timestamp":1487540520916,"type":{"majorVersion":1,"minorVersion":0,"eventType":"OutputStyledTextEvent"},"data":{"common":{"category":"org.gradle.internal.buildevents.BuildResultLogger","logLevel":"LIFECYCLE"},"spans":[{"text":"\n","style":"Normal"}]}}
+
+id: 72
+event: BuildEvent
+data: {"timestamp":1487540520916,"type":{"majorVersion":1,"minorVersion":0,"eventType":"OutputStyledTextEvent"},"data":{"common":{"category":"org.gradle.internal.buildevents.BuildResultLogger","logLevel":"LIFECYCLE"},"spans":[{"text":"Total time: 8.202 secs\n","style":"Normal"}]}}
+
+id: 73
+event: BuildEvent
+data: {"timestamp":1487540520939,"type":{"majorVersion":1,"minorVersion":0,"eventType":"UserLink"},"data":{"label":"Create Gradle Forum Topic","url":"http://discuss.gradle.org/new-topic?title=Build%20fails%20with%20%22Checkstyle%20rule%20violations%20were%20found.%20See%20the%20report%20at:%20file:///Users/dvydra/dev/gradle/gradle-build-scan-quickstart/build/reports/checkstyle/main.html%22&body=put%20your%20build%20scan%20url%20here!&category=Help%2FDiscuss&tags=buildscan-provided"}}
+
+id: 74
+event: BuildEvent
+data: {"timestamp":1487540520939,"type":{"majorVersion":1,"minorVersion":0,"eventType":"ConfigurationResolutionData"},"data":{"identities":{"5986419530367645958":{"type":"ModuleComponentIdentity_1_0","group":"commons-cli","module":"commons-cli","version":"1.2"},"7817447451290190619":{"type":"ModuleComponentIdentity_1_0","group":"com.google.guava","module":"guava","version":"18.0"},"-1304334253747185484":{"type":"ModuleComponentIdentity_1_0","group":"com.puppycrawl.tools","module":"checkstyle","version":"5.9"},"-3140967205134626632":{"type":"ModuleComponentIdentity_1_0","group":"commons-beanutils","module":"commons-beanutils-core","version":"1.8.3"},"-4112682170889789545":{"type":"ModuleComponentIdentity_1_0","group":"com.google.guava","module":"guava-jdk5","version":"14.0.1"},"-4158201004604845245":{"type":"ProjectComponentIdentity_1_0","projectPath":":"},"-5065192993513820785":{"type":"ModuleComponentIdentity_1_0","group":"antlr","module":"antlr","version":"2.7.7"}},"components":{"-922720249368180429":{"identity":-4112682170889789545,"selectionReason":null,"dependencies":[]},"5624027510292334546":{"identity":-3140967205134626632,"selectionReason":null,"dependencies":[]},"-1958175210890232384":{"identity":7817447451290190619,"selectionReason":null,"dependencies":[]},"-5312256710364062850":{"identity":-4158201004604845245,"selectionReason":null,"dependencies":[-3701503002389070467]},"-5558243966731278528":{"identity":-1304334253747185484,"selectionReason":null,"dependencies":[5978141219167368364,-3838182948058051082,8607706580878501068,2510554363073223096]},"-5689771848904514208":{"identity":5986419530367645958,"selectionReason":null,"dependencies":[]},"-6621128348394796803":{"identity":-5065192993513820785,"selectionReason":null,"dependencies":[]},"-7678528441735453478":{"identity":-4158201004604845245,"selectionReason":null,"dependencies":[-4714084445765594619]}},"dependencies":{"2510554363073223096":{"requested":null,"to":-4112682170889789545,"attempted":null,"attemptedReason":null},"5978141219167368364":{"requested":null,"to":-5065192993513820785,"attempted":null,"attemptedReason":null},"8607706580878501068":{"requested":null,"to":5986419530367645958,"attempted":null,"attemptedReason":null},"-3701503002389070467":{"requested":null,"to":-1304334253747185484,"attempted":null,"attemptedReason":null},"-3838182948058051082":{"requested":null,"to":-3140967205134626632,"attempted":null,"attemptedReason":null},"-4714084445765594619":{"requested":null,"to":7817447451290190619,"attempted":null,"attemptedReason":null}},"failures":{}}}
+
+id: 75
+event: BuildEvent
+data: {"timestamp":1487540520939,"type":{"majorVersion":1,"minorVersion":0,"eventType":"BuildFinished"},"data":{"failure":{"exceptions":[{"className":"org.gradle.internal.exceptions.LocationAwareException","message":"Execution failed for task ':checkstyleMain'.","stacktrace":[{"declaringClass":"org.gradle.initialization.DefaultExceptionAnalyser","methodName":"transform","fileName":"DefaultExceptionAnalyser.java","lineNumber":74},{"declaringClass":"org.gradle.initialization.MultipleBuildFailuresExceptionAnalyser","methodName":"transform","fileName":"MultipleBuildFailuresExceptionAnalyser.java","lineNumber":47},{"declaringClass":"org.gradle.initialization.StackTraceSanitizingExceptionAnalyser","methodName":"transform","fileName":"StackTraceSanitizingExceptionAnalyser.java","lineNumber":30},{"declaringClass":"org.gradle.initialization.DefaultGradleLauncher","methodName":"doBuild","fileName":"DefaultGradleLauncher.java","lineNumber":122},{"declaringClass":"org.gradle.initialization.DefaultGradleLauncher","methodName":"run","fileName":"DefaultGradleLauncher.java","lineNumber":102},{"declaringClass":"org.gradle.launcher.exec.GradleBuildController","methodName":"run","fileName":"GradleBuildController.java","lineNumber":71},{"declaringClass":"org.gradle.tooling.internal.provider.ExecuteBuildActionRunner","methodName":"run","fileName":"ExecuteBuildActionRunner.java","lineNumber":28},{"declaringClass":"org.gradle.launcher.exec.ChainingBuildActionRunner","methodName":"run","fileName":"ChainingBuildActionRunner.java","lineNumber":35},{"declaringClass":"org.gradle.launcher.exec.InProcessBuildActionExecuter","methodName":"execute","fileName":"InProcessBuildActionExecuter.java","lineNumber":41},{"declaringClass":"org.gradle.launcher.exec.InProcessBuildActionExecuter","methodName":"execute","fileName":"InProcessBuildActionExecuter.java","lineNumber":26},{"declaringClass":"org.gradle.tooling.internal.provider.ContinuousBuildActionExecuter","methodName":"execute","fileName":"ContinuousBuildActionExecuter.java","lineNumber":75},{"declaringClass":"org.gradle.tooling.internal.provider.ContinuousBuildActionExecuter","methodName":"execute","fileName":"ContinuousBuildActionExecuter.java","lineNumber":49},{"declaringClass":"org.gradle.tooling.internal.provider.ServicesSetupBuildActionExecuter","methodName":"execute","fileName":"ServicesSetupBuildActionExecuter.java","lineNumber":44},{"declaringClass":"org.gradle.tooling.internal.provider.ServicesSetupBuildActionExecuter","methodName":"execute","fileName":"ServicesSetupBuildActionExecuter.java","lineNumber":29},{"declaringClass":"org.gradle.launcher.daemon.server.exec.ExecuteBuild","methodName":"doBuild","fileName":"ExecuteBuild.java","lineNumber":67},{"declaringClass":"org.gradle.launcher.daemon.server.exec.BuildCommandOnly","methodName":"execute","fileName":"BuildCommandOnly.java","lineNumber":36},{"declaringClass":"org.gradle.launcher.daemon.server.api.DaemonCommandExecution","methodName":"proceed","fileName":"DaemonCommandExecution.java","lineNumber":120},{"declaringClass":"org.gradle.launcher.daemon.server.exec.WatchForDisconnection","methodName":"execute","fileName":"WatchForDisconnection.java","lineNumber":47},{"declaringClass":"org.gradle.launcher.daemon.server.api.DaemonCommandExecution","methodName":"proceed","fileName":"DaemonCommandExecution.java","lineNumber":120},{"declaringClass":"org.gradle.launcher.daemon.server.exec.ResetDeprecationLogger","methodName":"execute","fileName":"ResetDeprecationLogger.java","lineNumber":26},{"declaringClass":"org.gradle.launcher.daemon.server.api.DaemonCommandExecution","methodName":"proceed","fileName":"DaemonCommandExecution.java","lineNumber":120},{"declaringClass":"org.gradle.launcher.daemon.server.exec.RequestStopIfSingleUsedDaemon","methodName":"execute","fileName":"RequestStopIfSingleUsedDaemon.java","lineNumber":34},{"declaringClass":"org.gradle.launcher.daemon.server.api.DaemonCommandExecution","methodName":"proceed","fileName":"DaemonCommandExecution.java","lineNumber":120},{"declaringClass":"org.gradle.launcher.daemon.server.exec.ForwardClientInput$2","methodName":"call","fileName":"ForwardClientInput.java","lineNumber":74},{"declaringClass":"org.gradle.launcher.daemon.server.exec.ForwardClientInput$2","methodName":"call","fileName":"ForwardClientInput.java","lineNumber":72},{"declaringClass":"org.gradle.util.Swapper","methodName":"swap","fileName":"Swapper.java","lineNumber":38},{"declaringClass":"org.gradle.launcher.daemon.server.exec.ForwardClientInput","methodName":"execute","fileName":"ForwardClientInput.java","lineNumber":72},{"declaringClass":"org.gradle.launcher.daemon.server.api.DaemonCommandExecution","methodName":"proceed","fileName":"DaemonCommandExecution.java","lineNumber":120},{"declaringClass":"org.gradle.launcher.daemon.server.exec.LogAndCheckHealth","methodName":"execute","fileName":"LogAndCheckHealth.java","lineNumber":55},{"declaringClass":"org.gradle.launcher.daemon.server.api.DaemonCommandExecution","methodName":"proceed","fileName":"DaemonCommandExecution.java","lineNumber":120},{"declaringClass":"org.gradle.launcher.daemon.server.exec.LogToClient","methodName":"doBuild","fileName":"LogToClient.java","lineNumber":60},{"declaringClass":"org.gradle.launcher.daemon.server.exec.BuildCommandOnly","methodName":"execute","fileName":"BuildCommandOnly.java","lineNumber":36},{"declaringClass":"org.gradle.launcher.daemon.server.api.DaemonCommandExecution","methodName":"proceed","fileName":"DaemonCommandExecution.java","lineNumber":120},{"declaringClass":"org.gradle.launcher.daemon.server.exec.EstablishBuildEnvironment","methodName":"doBuild","fileName":"EstablishBuildEnvironment.java","lineNumber":72},{"declaringClass":"org.gradle.launcher.daemon.server.exec.BuildCommandOnly","methodName":"execute","fileName":"BuildCommandOnly.java","lineNumber":36},{"declaringClass":"org.gradle.launcher.daemon.server.api.DaemonCommandExecution","methodName":"proceed","fileName":"DaemonCommandExecution.java","lineNumber":120},{"declaringClass":"org.gradle.launcher.daemon.server.exec.StartBuildOrRespondWithBusy$1","methodName":"run","fileName":"StartBuildOrRespondWithBusy.java","lineNumber":50},{"declaringClass":"org.gradle.launcher.daemon.server.DaemonStateCoordinator$1","methodName":"run","fileName":"DaemonStateCoordinator.java","lineNumber":297},{"declaringClass":"org.gradle.internal.concurrent.ExecutorPolicy$CatchAndRecordFailures","methodName":"onExecute","fileName":"ExecutorPolicy.java","lineNumber":54},{"declaringClass":"org.gradle.internal.concurrent.StoppableExecutorImpl$1","methodName":"run","fileName":"StoppableExecutorImpl.java","lineNumber":40}],"causes":[1],"metadata":{"location":null,"lineNumber":null,"sourceDisplayName":null},"classLevelAnnotations":[]},{"className":"org.gradle.api.tasks.TaskExecutionException","message":"Execution failed for task ':checkstyleMain'.","stacktrace":[{"declaringClass":"org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter","methodName":"executeActions","fileName":"ExecuteActionsTaskExecuter.java","lineNumber":84},{"declaringClass":"org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter","methodName":"execute","fileName":"ExecuteActionsTaskExecuter.java","lineNumber":55},{"declaringClass":"org.gradle.api.internal.tasks.execution.SkipUpToDateTaskExecuter","methodName":"execute","fileName":"SkipUpToDateTaskExecuter.java","lineNumber":62},{"declaringClass":"org.gradle.api.internal.tasks.execution.ValidatingTaskExecuter","methodName":"execute","fileName":"ValidatingTaskExecuter.java","lineNumber":58},{"declaringClass":"org.gradle.api.internal.tasks.execution.SkipEmptySourceFilesTaskExecuter","methodName":"execute","fileName":"SkipEmptySourceFilesTaskExecuter.java","lineNumber":88},{"declaringClass":"org.gradle.api.internal.tasks.execution.ResolveTaskArtifactStateTaskExecuter","methodName":"execute","fileName":"ResolveTaskArtifactStateTaskExecuter.java","lineNumber":46},{"declaringClass":"org.gradle.api.internal.tasks.execution.SkipTaskWithNoActionsExecuter","methodName":"execute","fileName":"SkipTaskWithNoActionsExecuter.java","lineNumber":51},{"declaringClass":"org.gradle.api.internal.tasks.execution.SkipOnlyIfTaskExecuter","methodName":"execute","fileName":"SkipOnlyIfTaskExecuter.java","lineNumber":54},{"declaringClass":"org.gradle.api.internal.tasks.execution.ExecuteAtMostOnceTaskExecuter","methodName":"execute","fileName":"ExecuteAtMostOnceTaskExecuter.java","lineNumber":43},{"declaringClass":"org.gradle.api.internal.tasks.execution.CatchExceptionTaskExecuter","methodName":"execute","fileName":"CatchExceptionTaskExecuter.java","lineNumber":34},{"declaringClass":"org.gradle.execution.taskgraph.DefaultTaskGraphExecuter$EventFiringTaskWorker$1","methodName":"execute","fileName":"DefaultTaskGraphExecuter.java","lineNumber":236},{"declaringClass":"org.gradle.execution.taskgraph.DefaultTaskGraphExecuter$EventFiringTaskWorker$1","methodName":"execute","fileName":"DefaultTaskGraphExecuter.java","lineNumber":228},{"declaringClass":"org.gradle.internal.Transformers$4","methodName":"transform","fileName":"Transformers.java","lineNumber":169},{"declaringClass":"org.gradle.internal.progress.DefaultBuildOperationExecutor","methodName":"run","fileName":"DefaultBuildOperationExecutor.java","lineNumber":106},{"declaringClass":"org.gradle.internal.progress.DefaultBuildOperationExecutor","methodName":"run","fileName":"DefaultBuildOperationExecutor.java","lineNumber":61},{"declaringClass":"org.gradle.execution.taskgraph.DefaultTaskGraphExecuter$EventFiringTaskWorker","methodName":"execute","fileName":"DefaultTaskGraphExecuter.java","lineNumber":228},{"declaringClass":"org.gradle.execution.taskgraph.DefaultTaskGraphExecuter$EventFiringTaskWorker","methodName":"execute","fileName":"DefaultTaskGraphExecuter.java","lineNumber":215},{"declaringClass":"org.gradle.execution.taskgraph.AbstractTaskPlanExecutor$TaskExecutorWorker","methodName":"processTask","fileName":"AbstractTaskPlanExecutor.java","lineNumber":77},{"declaringClass":"org.gradle.execution.taskgraph.AbstractTaskPlanExecutor$TaskExecutorWorker","methodName":"run","fileName":"AbstractTaskPlanExecutor.java","lineNumber":58},{"declaringClass":"org.gradle.execution.taskgraph.DefaultTaskPlanExecutor","methodName":"process","fileName":"DefaultTaskPlanExecutor.java","lineNumber":32},{"declaringClass":"org.gradle.execution.taskgraph.DefaultTaskGraphExecuter","methodName":"execute","fileName":"DefaultTaskGraphExecuter.java","lineNumber":113},{"declaringClass":"org.gradle.execution.SelectedTaskExecutionAction","methodName":"execute","fileName":"SelectedTaskExecutionAction.java","lineNumber":37},{"declaringClass":"org.gradle.execution.DefaultBuildExecuter","methodName":"execute","fileName":"DefaultBuildExecuter.java","lineNumber":37},{"declaringClass":"org.gradle.execution.DefaultBuildExecuter","methodName":"access$000","fileName":"DefaultBuildExecuter.java","lineNumber":23},{"declaringClass":"org.gradle.execution.DefaultBuildExecuter$1","methodName":"proceed","fileName":"DefaultBuildExecuter.java","lineNumber":43},{"declaringClass":"org.gradle.execution.DryRunBuildExecutionAction","methodName":"execute","fileName":"DryRunBuildExecutionAction.java","lineNumber":32},{"declaringClass":"org.gradle.execution.DefaultBuildExecuter","methodName":"execute","fileName":"DefaultBuildExecuter.java","lineNumber":37},{"declaringClass":"org.gradle.execution.DefaultBuildExecuter","methodName":"execute","fileName":"DefaultBuildExecuter.java","lineNumber":30},{"declaringClass":"org.gradle.initialization.DefaultGradleLauncher$3","methodName":"execute","fileName":"DefaultGradleLauncher.java","lineNumber":196},{"declaringClass":"org.gradle.initialization.DefaultGradleLauncher$3","methodName":"execute","fileName":"DefaultGradleLauncher.java","lineNumber":193},{"declaringClass":"org.gradle.internal.Transformers$4","methodName":"transform","fileName":"Transformers.java","lineNumber":169},{"declaringClass":"org.gradle.internal.progress.DefaultBuildOperationExecutor","methodName":"run","fileName":"DefaultBuildOperationExecutor.java","lineNumber":106},{"declaringClass":"org.gradle.internal.progress.DefaultBuildOperationExecutor","methodName":"run","fileName":"DefaultBuildOperationExecutor.java","lineNumber":56},{"declaringClass":"org.gradle.initialization.DefaultGradleLauncher","methodName":"doBuildStages","fileName":"DefaultGradleLauncher.java","lineNumber":193},{"declaringClass":"org.gradle.initialization.DefaultGradleLauncher","methodName":"doBuild","fileName":"DefaultGradleLauncher.java","lineNumber":119},{"declaringClass":"org.gradle.initialization.DefaultGradleLauncher","methodName":"run","fileName":"DefaultGradleLauncher.java","lineNumber":102},{"declaringClass":"org.gradle.launcher.exec.GradleBuildController","methodName":"run","fileName":"GradleBuildController.java","lineNumber":71},{"declaringClass":"org.gradle.tooling.internal.provider.ExecuteBuildActionRunner","methodName":"run","fileName":"ExecuteBuildActionRunner.java","lineNumber":28},{"declaringClass":"org.gradle.launcher.exec.ChainingBuildActionRunner","methodName":"run","fileName":"ChainingBuildActionRunner.java","lineNumber":35},{"declaringClass":"org.gradle.launcher.exec.InProcessBuildActionExecuter","methodName":"execute","fileName":"InProcessBuildActionExecuter.java","lineNumber":41},{"declaringClass":"org.gradle.launcher.exec.InProcessBuildActionExecuter","methodName":"execute","fileName":"InProcessBuildActionExecuter.java","lineNumber":26},{"declaringClass":"org.gradle.tooling.internal.provider.ContinuousBuildActionExecuter","methodName":"execute","fileName":"ContinuousBuildActionExecuter.java","lineNumber":75},{"declaringClass":"org.gradle.tooling.internal.provider.ContinuousBuildActionExecuter","methodName":"execute","fileName":"ContinuousBuildActionExecuter.java","lineNumber":49},{"declaringClass":"org.gradle.tooling.internal.provider.ServicesSetupBuildActionExecuter","methodName":"execute","fileName":"ServicesSetupBuildActionExecuter.java","lineNumber":44},{"declaringClass":"org.gradle.tooling.internal.provider.ServicesSetupBuildActionExecuter","methodName":"execute","fileName":"ServicesSetupBuildActionExecuter.java","lineNumber":29},{"declaringClass":"org.gradle.launcher.daemon.server.exec.ExecuteBuild","methodName":"doBuild","fileName":"ExecuteBuild.java","lineNumber":67},{"declaringClass":"org.gradle.launcher.daemon.server.exec.BuildCommandOnly","methodName":"execute","fileName":"BuildCommandOnly.java","lineNumber":36},{"declaringClass":"org.gradle.launcher.daemon.server.api.DaemonCommandExecution","methodName":"proceed","fileName":"DaemonCommandExecution.java","lineNumber":120},{"declaringClass":"org.gradle.launcher.daemon.server.exec.WatchForDisconnection","methodName":"execute","fileName":"WatchForDisconnection.java","lineNumber":47},{"declaringClass":"org.gradle.launcher.daemon.server.api.DaemonCommandExecution","methodName":"proceed","fileName":"DaemonCommandExecution.java","lineNumber":120},{"declaringClass":"org.gradle.launcher.daemon.server.exec.ResetDeprecationLogger","methodName":"execute","fileName":"ResetDeprecationLogger.java","lineNumber":26},{"declaringClass":"org.gradle.launcher.daemon.server.api.DaemonCommandExecution","methodName":"proceed","fileName":"DaemonCommandExecution.java","lineNumber":120},{"declaringClass":"org.gradle.launcher.daemon.server.exec.RequestStopIfSingleUsedDaemon","methodName":"execute","fileName":"RequestStopIfSingleUsedDaemon.java","lineNumber":34},{"declaringClass":"org.gradle.launcher.daemon.server.api.DaemonCommandExecution","methodName":"proceed","fileName":"DaemonCommandExecution.java","lineNumber":120},{"declaringClass":"org.gradle.launcher.daemon.server.exec.ForwardClientInput$2","methodName":"call","fileName":"ForwardClientInput.java","lineNumber":74},{"declaringClass":"org.gradle.launcher.daemon.server.exec.ForwardClientInput$2","methodName":"call","fileName":"ForwardClientInput.java","lineNumber":72},{"declaringClass":"org.gradle.util.Swapper","methodName":"swap","fileName":"Swapper.java","lineNumber":38},{"declaringClass":"org.gradle.launcher.daemon.server.exec.ForwardClientInput","methodName":"execute","fileName":"ForwardClientInput.java","lineNumber":72},{"declaringClass":"org.gradle.launcher.daemon.server.api.DaemonCommandExecution","methodName":"proceed","fileName":"DaemonCommandExecution.java","lineNumber":120},{"declaringClass":"org.gradle.launcher.daemon.server.exec.LogAndCheckHealth","methodName":"execute","fileName":"LogAndCheckHealth.java","lineNumber":55},{"declaringClass":"org.gradle.launcher.daemon.server.api.DaemonCommandExecution","methodName":"proceed","fileName":"DaemonCommandExecution.java","lineNumber":120},{"declaringClass":"org.gradle.launcher.daemon.server.exec.LogToClient","methodName":"doBuild","fileName":"LogToClient.java","lineNumber":60},{"declaringClass":"org.gradle.launcher.daemon.server.exec.BuildCommandOnly","methodName":"execute","fileName":"BuildCommandOnly.java","lineNumber":36},{"declaringClass":"org.gradle.launcher.daemon.server.api.DaemonCommandExecution","methodName":"proceed","fileName":"DaemonCommandExecution.java","lineNumber":120},{"declaringClass":"org.gradle.launcher.daemon.server.exec.EstablishBuildEnvironment","methodName":"doBuild","fileName":"EstablishBuildEnvironment.java","lineNumber":72},{"declaringClass":"org.gradle.launcher.daemon.server.exec.BuildCommandOnly","methodName":"execute","fileName":"BuildCommandOnly.java","lineNumber":36},{"declaringClass":"org.gradle.launcher.daemon.server.api.DaemonCommandExecution","methodName":"proceed","fileName":"DaemonCommandExecution.java","lineNumber":120},{"declaringClass":"org.gradle.launcher.daemon.server.exec.StartBuildOrRespondWithBusy$1","methodName":"run","fileName":"StartBuildOrRespondWithBusy.java","lineNumber":50},{"declaringClass":"org.gradle.launcher.daemon.server.DaemonStateCoordinator$1","methodName":"run","fileName":"DaemonStateCoordinator.java","lineNumber":297},{"declaringClass":"org.gradle.internal.concurrent.ExecutorPolicy$CatchAndRecordFailures","methodName":"onExecute","fileName":"ExecutorPolicy.java","lineNumber":54},{"declaringClass":"org.gradle.internal.concurrent.StoppableExecutorImpl$1","methodName":"run","fileName":"StoppableExecutorImpl.java","lineNumber":40}],"causes":[2],"metadata":{"taskPath":":checkstyleMain"},"classLevelAnnotations":["org.gradle.internal.exceptions.Contextual"]},{"className":"org.gradle.api.GradleException","message":"Checkstyle rule violations were found. See the report at: file:///Users/dvydra/dev/gradle/gradle-build-scan-quickstart/build/reports/checkstyle/main.html","stacktrace":[{"declaringClass":"org.gradle.api.plugins.quality.internal.CheckstyleInvoker$_invoke_closure1","methodName":"doCall","fileName":"CheckstyleInvoker.groovy","lineNumber":94},{"declaringClass":"org.gradle.api.internal.ClosureBackedAction","methodName":"execute","fileName":"ClosureBackedAction.java","lineNumber":70},{"declaringClass":"org.gradle.api.internal.ClosureBackedAction","methodName":"execute","fileName":"ClosureBackedAction.java","lineNumber":52},{"declaringClass":"org.gradle.api.internal.project.antbuilder.DefaultIsolatedAntBuilder$2","methodName":"execute","fileName":"DefaultIsolatedAntBuilder.java","lineNumber":151},{"declaringClass":"org.gradle.api.internal.project.antbuilder.DefaultIsolatedAntBuilder$2","methodName":"execute","fileName":"DefaultIsolatedAntBuilder.java","lineNumber":133},{"declaringClass":"org.gradle.api.internal.project.antbuilder.ClassPathToClassLoaderCache","methodName":"withCachedClassLoader","fileName":"ClassPathToClassLoaderCache.java","lineNumber":134},{"declaringClass":"org.gradle.api.internal.project.antbuilder.DefaultIsolatedAntBuilder","methodName":"execute","fileName":"DefaultIsolatedAntBuilder.java","lineNumber":127},{"declaringClass":"org.gradle.api.internal.project.IsolatedAntBuilder$execute$0","methodName":"call","fileName":null,"lineNumber":-1},{"declaringClass":"org.gradle.api.plugins.quality.internal.CheckstyleInvoker","methodName":"invoke","fileName":"CheckstyleInvoker.groovy","lineNumber":46},{"declaringClass":"org.gradle.api.plugins.quality.Checkstyle","methodName":"run","fileName":"Checkstyle.java","lineNumber":141},{"declaringClass":"org.gradle.internal.reflect.JavaMethod","methodName":"invoke","fileName":"JavaMethod.java","lineNumber":73},{"declaringClass":"org.gradle.api.internal.project.taskfactory.DefaultTaskClassInfoStore$StandardTaskAction","methodName":"doExecute","fileName":"DefaultTaskClassInfoStore.java","lineNumber":141},{"declaringClass":"org.gradle.api.internal.project.taskfactory.DefaultTaskClassInfoStore$StandardTaskAction","methodName":"execute","fileName":"DefaultTaskClassInfoStore.java","lineNumber":134},{"declaringClass":"org.gradle.api.internal.project.taskfactory.DefaultTaskClassInfoStore$StandardTaskAction","methodName":"execute","fileName":"DefaultTaskClassInfoStore.java","lineNumber":123},{"declaringClass":"org.gradle.api.internal.AbstractTask$TaskActionWrapper","methodName":"execute","fileName":"AbstractTask.java","lineNumber":632},{"declaringClass":"org.gradle.api.internal.AbstractTask$TaskActionWrapper","methodName":"execute","fileName":"AbstractTask.java","lineNumber":615},{"declaringClass":"org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter","methodName":"executeAction","fileName":"ExecuteActionsTaskExecuter.java","lineNumber":95},{"declaringClass":"org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter","methodName":"executeActions","fileName":"ExecuteActionsTaskExecuter.java","lineNumber":76},{"declaringClass":"org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter","methodName":"execute","fileName":"ExecuteActionsTaskExecuter.java","lineNumber":55},{"declaringClass":"org.gradle.api.internal.tasks.execution.SkipUpToDateTaskExecuter","methodName":"execute","fileName":"SkipUpToDateTaskExecuter.java","lineNumber":62},{"declaringClass":"org.gradle.api.internal.tasks.execution.ValidatingTaskExecuter","methodName":"execute","fileName":"ValidatingTaskExecuter.java","lineNumber":58},{"declaringClass":"org.gradle.api.internal.tasks.execution.SkipEmptySourceFilesTaskExecuter","methodName":"execute","fileName":"SkipEmptySourceFilesTaskExecuter.java","lineNumber":88},{"declaringClass":"org.gradle.api.internal.tasks.execution.ResolveTaskArtifactStateTaskExecuter","methodName":"execute","fileName":"ResolveTaskArtifactStateTaskExecuter.java","lineNumber":46},{"declaringClass":"org.gradle.api.internal.tasks.execution.SkipTaskWithNoActionsExecuter","methodName":"execute","fileName":"SkipTaskWithNoActionsExecuter.java","lineNumber":51},{"declaringClass":"org.gradle.api.internal.tasks.execution.SkipOnlyIfTaskExecuter","methodName":"execute","fileName":"SkipOnlyIfTaskExecuter.java","lineNumber":54},{"declaringClass":"org.gradle.api.internal.tasks.execution.ExecuteAtMostOnceTaskExecuter","methodName":"execute","fileName":"ExecuteAtMostOnceTaskExecuter.java","lineNumber":43},{"declaringClass":"org.gradle.api.internal.tasks.execution.CatchExceptionTaskExecuter","methodName":"execute","fileName":"CatchExceptionTaskExecuter.java","lineNumber":34},{"declaringClass":"org.gradle.execution.taskgraph.DefaultTaskGraphExecuter$EventFiringTaskWorker$1","methodName":"execute","fileName":"DefaultTaskGraphExecuter.java","lineNumber":236},{"declaringClass":"org.gradle.execution.taskgraph.DefaultTaskGraphExecuter$EventFiringTaskWorker$1","methodName":"execute","fileName":"DefaultTaskGraphExecuter.java","lineNumber":228},{"declaringClass":"org.gradle.internal.Transformers$4","methodName":"transform","fileName":"Transformers.java","lineNumber":169},{"declaringClass":"org.gradle.internal.progress.DefaultBuildOperationExecutor","methodName":"run","fileName":"DefaultBuildOperationExecutor.java","lineNumber":106},{"declaringClass":"org.gradle.internal.progress.DefaultBuildOperationExecutor","methodName":"run","fileName":"DefaultBuildOperationExecutor.java","lineNumber":61},{"declaringClass":"org.gradle.execution.taskgraph.DefaultTaskGraphExecuter$EventFiringTaskWorker","methodName":"execute","fileName":"DefaultTaskGraphExecuter.java","lineNumber":228},{"declaringClass":"org.gradle.execution.taskgraph.DefaultTaskGraphExecuter$EventFiringTaskWorker","methodName":"execute","fileName":"DefaultTaskGraphExecuter.java","lineNumber":215},{"declaringClass":"org.gradle.execution.taskgraph.AbstractTaskPlanExecutor$TaskExecutorWorker","methodName":"processTask","fileName":"AbstractTaskPlanExecutor.java","lineNumber":77},{"declaringClass":"org.gradle.execution.taskgraph.AbstractTaskPlanExecutor$TaskExecutorWorker","methodName":"run","fileName":"AbstractTaskPlanExecutor.java","lineNumber":58},{"declaringClass":"org.gradle.execution.taskgraph.DefaultTaskPlanExecutor","methodName":"process","fileName":"DefaultTaskPlanExecutor.java","lineNumber":32},{"declaringClass":"org.gradle.execution.taskgraph.DefaultTaskGraphExecuter","methodName":"execute","fileName":"DefaultTaskGraphExecuter.java","lineNumber":113},{"declaringClass":"org.gradle.execution.SelectedTaskExecutionAction","methodName":"execute","fileName":"SelectedTaskExecutionAction.java","lineNumber":37},{"declaringClass":"org.gradle.execution.DefaultBuildExecuter","methodName":"execute","fileName":"DefaultBuildExecuter.java","lineNumber":37},{"declaringClass":"org.gradle.execution.DefaultBuildExecuter","methodName":"access$000","fileName":"DefaultBuildExecuter.java","lineNumber":23},{"declaringClass":"org.gradle.execution.DefaultBuildExecuter$1","methodName":"proceed","fileName":"DefaultBuildExecuter.java","lineNumber":43},{"declaringClass":"org.gradle.execution.DryRunBuildExecutionAction","methodName":"execute","fileName":"DryRunBuildExecutionAction.java","lineNumber":32},{"declaringClass":"org.gradle.execution.DefaultBuildExecuter","methodName":"execute","fileName":"DefaultBuildExecuter.java","lineNumber":37},{"declaringClass":"org.gradle.execution.DefaultBuildExecuter","methodName":"execute","fileName":"DefaultBuildExecuter.java","lineNumber":30},{"declaringClass":"org.gradle.initialization.DefaultGradleLauncher$3","methodName":"execute","fileName":"DefaultGradleLauncher.java","lineNumber":196},{"declaringClass":"org.gradle.initialization.DefaultGradleLauncher$3","methodName":"execute","fileName":"DefaultGradleLauncher.java","lineNumber":193},{"declaringClass":"org.gradle.internal.Transformers$4","methodName":"transform","fileName":"Transformers.java","lineNumber":169},{"declaringClass":"org.gradle.internal.progress.DefaultBuildOperationExecutor","methodName":"run","fileName":"DefaultBuildOperationExecutor.java","lineNumber":106},{"declaringClass":"org.gradle.internal.progress.DefaultBuildOperationExecutor","methodName":"run","fileName":"DefaultBuildOperationExecutor.java","lineNumber":56},{"declaringClass":"org.gradle.initialization.DefaultGradleLauncher","methodName":"doBuildStages","fileName":"DefaultGradleLauncher.java","lineNumber":193},{"declaringClass":"org.gradle.initialization.DefaultGradleLauncher","methodName":"doBuild","fileName":"DefaultGradleLauncher.java","lineNumber":119},{"declaringClass":"org.gradle.initialization.DefaultGradleLauncher","methodName":"run","fileName":"DefaultGradleLauncher.java","lineNumber":102},{"declaringClass":"org.gradle.launcher.exec.GradleBuildController","methodName":"run","fileName":"GradleBuildController.java","lineNumber":71},{"declaringClass":"org.gradle.tooling.internal.provider.ExecuteBuildActionRunner","methodName":"run","fileName":"ExecuteBuildActionRunner.java","lineNumber":28},{"declaringClass":"org.gradle.launcher.exec.ChainingBuildActionRunner","methodName":"run","fileName":"ChainingBuildActionRunner.java","lineNumber":35},{"declaringClass":"org.gradle.launcher.exec.InProcessBuildActionExecuter","methodName":"execute","fileName":"InProcessBuildActionExecuter.java","lineNumber":41},{"declaringClass":"org.gradle.launcher.exec.InProcessBuildActionExecuter","methodName":"execute","fileName":"InProcessBuildActionExecuter.java","lineNumber":26},{"declaringClass":"org.gradle.tooling.internal.provider.ContinuousBuildActionExecuter","methodName":"execute","fileName":"ContinuousBuildActionExecuter.java","lineNumber":75},{"declaringClass":"org.gradle.tooling.internal.provider.ContinuousBuildActionExecuter","methodName":"execute","fileName":"ContinuousBuildActionExecuter.java","lineNumber":49},{"declaringClass":"org.gradle.tooling.internal.provider.ServicesSetupBuildActionExecuter","methodName":"execute","fileName":"ServicesSetupBuildActionExecuter.java","lineNumber":44},{"declaringClass":"org.gradle.tooling.internal.provider.ServicesSetupBuildActionExecuter","methodName":"execute","fileName":"ServicesSetupBuildActionExecuter.java","lineNumber":29},{"declaringClass":"org.gradle.launcher.daemon.server.exec.ExecuteBuild","methodName":"doBuild","fileName":"ExecuteBuild.java","lineNumber":67},{"declaringClass":"org.gradle.launcher.daemon.server.exec.BuildCommandOnly","methodName":"execute","fileName":"BuildCommandOnly.java","lineNumber":36},{"declaringClass":"org.gradle.launcher.daemon.server.api.DaemonCommandExecution","methodName":"proceed","fileName":"DaemonCommandExecution.java","lineNumber":120},{"declaringClass":"org.gradle.launcher.daemon.server.exec.WatchForDisconnection","methodName":"execute","fileName":"WatchForDisconnection.java","lineNumber":47},{"declaringClass":"org.gradle.launcher.daemon.server.api.DaemonCommandExecution","methodName":"proceed","fileName":"DaemonCommandExecution.java","lineNumber":120},{"declaringClass":"org.gradle.launcher.daemon.server.exec.ResetDeprecationLogger","methodName":"execute","fileName":"ResetDeprecationLogger.java","lineNumber":26},{"declaringClass":"org.gradle.launcher.daemon.server.api.DaemonCommandExecution","methodName":"proceed","fileName":"DaemonCommandExecution.java","lineNumber":120},{"declaringClass":"org.gradle.launcher.daemon.server.exec.RequestStopIfSingleUsedDaemon","methodName":"execute","fileName":"RequestStopIfSingleUsedDaemon.java","lineNumber":34},{"declaringClass":"org.gradle.launcher.daemon.server.api.DaemonCommandExecution","methodName":"proceed","fileName":"DaemonCommandExecution.java","lineNumber":120},{"declaringClass":"org.gradle.launcher.daemon.server.exec.ForwardClientInput$2","methodName":"call","fileName":"ForwardClientInput.java","lineNumber":74},{"declaringClass":"org.gradle.launcher.daemon.server.exec.ForwardClientInput$2","methodName":"call","fileName":"ForwardClientInput.java","lineNumber":72},{"declaringClass":"org.gradle.util.Swapper","methodName":"swap","fileName":"Swapper.java","lineNumber":38},{"declaringClass":"org.gradle.launcher.daemon.server.exec.ForwardClientInput","methodName":"execute","fileName":"ForwardClientInput.java","lineNumber":72},{"declaringClass":"org.gradle.launcher.daemon.server.api.DaemonCommandExecution","methodName":"proceed","fileName":"DaemonCommandExecution.java","lineNumber":120},{"declaringClass":"org.gradle.launcher.daemon.server.exec.LogAndCheckHealth","methodName":"execute","fileName":"LogAndCheckHealth.java","lineNumber":55},{"declaringClass":"org.gradle.launcher.daemon.server.api.DaemonCommandExecution","methodName":"proceed","fileName":"DaemonCommandExecution.java","lineNumber":120},{"declaringClass":"org.gradle.launcher.daemon.server.exec.LogToClient","methodName":"doBuild","fileName":"LogToClient.java","lineNumber":60},{"declaringClass":"org.gradle.launcher.daemon.server.exec.BuildCommandOnly","methodName":"execute","fileName":"BuildCommandOnly.java","lineNumber":36},{"declaringClass":"org.gradle.launcher.daemon.server.api.DaemonCommandExecution","methodName":"proceed","fileName":"DaemonCommandExecution.java","lineNumber":120},{"declaringClass":"org.gradle.launcher.daemon.server.exec.EstablishBuildEnvironment","methodName":"doBuild","fileName":"EstablishBuildEnvironment.java","lineNumber":72},{"declaringClass":"org.gradle.launcher.daemon.server.exec.BuildCommandOnly","methodName":"execute","fileName":"BuildCommandOnly.java","lineNumber":36},{"declaringClass":"org.gradle.launcher.daemon.server.api.DaemonCommandExecution","methodName":"proceed","fileName":"DaemonCommandExecution.java","lineNumber":120},{"declaringClass":"org.gradle.launcher.daemon.server.exec.StartBuildOrRespondWithBusy$1","methodName":"run","fileName":"StartBuildOrRespondWithBusy.java","lineNumber":50},{"declaringClass":"org.gradle.launcher.daemon.server.DaemonStateCoordinator$1","methodName":"run","fileName":"DaemonStateCoordinator.java","lineNumber":297},{"declaringClass":"org.gradle.internal.concurrent.ExecutorPolicy$CatchAndRecordFailures","methodName":"onExecute","fileName":"ExecutorPolicy.java","lineNumber":54},{"declaringClass":"org.gradle.internal.concurrent.StoppableExecutorImpl$1","methodName":"run","fileName":"StoppableExecutorImpl.java","lineNumber":40}],"causes":[],"metadata":{},"classLevelAnnotations":[]}]}}}
+
+id: 76
+event: BuildEvent
+data: {"timestamp":1487540520939,"type":{"majorVersion":1,"minorVersion":0,"eventType":"BasicMemoryStats"},"data":{"free":342967088,"total":431489024,"max":954728448}}
