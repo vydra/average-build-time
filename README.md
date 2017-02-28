@@ -35,4 +35,21 @@ Streaming events for : irxifle46qkmw
 Average Build Time: 10 seconds
 ```
 
-[BuildCountByUser]: src/main/java/com/gradle/cloudservices/enterprise/export/BuildCountByUser.java
+# Histogram
+
+## Parameters:
+
+server - Gradle Enterprise server name (assumes https on port 443)
+
+port - Gradle Enterprise server port. Defaults to 443
+
+hours - how many hours to go back from now. Default is 24hours. Use 'all' for all builds scans in the system (Warning: maybe be slow)
+
+tag - tag to filter
+
+customValue - custom value to filter
+
+success - filter only successful builds (default is all builds)
+
+
+To run histogram use: ./gradlew runHistogram -Dserver=ubuntu16 -Dhours=all -Dtag=LOCAL -DcustomValue="Git Branch Name:custom-values"  -Dsuccess=true

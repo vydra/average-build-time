@@ -38,7 +38,7 @@ public final class ComputeAverageBuildTime {
         if(hoursStr == null) {
             since = now().minus(Duration.ofHours( Integer.parseInt("24")));
         }
-        else if(hoursStr == "all") {
+        else if(hoursStr.equals("all")) {
             since = Instant.EPOCH;
             System.out.println("Calculating for all stored build scans");
         } else {

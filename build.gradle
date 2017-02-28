@@ -9,6 +9,8 @@ dependencies {
     compile 'io.reactivex:rxnetty-http:0.5.2-rc.5'
     compile 'com.fasterxml.jackson.core:jackson-databind:2.8.2'
     compile 'io.reactivex:rxjava-math:1.0.0'
+    // https://mvnrepository.com/artifact/org.hdrhistogram/HdrHistogram
+    compile group: 'org.hdrhistogram', name: 'HdrHistogram', version: '2.1.9'
 }
 
 sourceCompatibility = '1.8'
@@ -18,5 +20,13 @@ mainClassName = "com.gradle.cloudservices.enterprise.export.ComputeAverageBuildT
 
 run {
     /* Pass all the properties: */
+    systemProperties System.getProperties()
+}
+
+task runHistogram(type: JavaExec) {
+    classpath = sourceSets.main.runtimeClasspath
+
+    main = 'com.gradle.cloudservices.enterprise.export.BuildTimeHistogram'
+
     systemProperties System.getProperties()
 }
