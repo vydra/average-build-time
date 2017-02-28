@@ -39,15 +39,15 @@ Average Build Time: 10 seconds
 
 ## Parameters:
 
-server - Gradle Enterprise server name (assumes https on port 443)
+server - Gradle Enterprise server name (assumes https on port 443) (required)
 
 port - Gradle Enterprise server port. Defaults to 443
 
 hours - how many hours to go back from now. Default is 24hours. Use 'all' for all builds scans in the system (Warning: maybe be slow)
 
-tag - tag to filter
+tag - tag to filter (optional)
 
-customValue - custom value to filter
+customValue - custom value to filter (optional)
 
 success - filter only successful builds (default is all builds)
 
